@@ -14,5 +14,11 @@ if [ "$TERM" != dumb ] && [ -n "$GRC" ]; then
     alias ld='colourify ld'
     alias netstat='colourify netstat'
     alias ping='colourify ping'
+    alias ping6='colourify ping6'
     alias traceroute='colourify /usr/sbin/traceroute'
+    alias dig='colourify dig'
+    alias mount='colourify mount'
+    alias ps='colourify ps'
+    alias mtr='colourify mtr'
+    alias df='colourify df -kh'
 fi
